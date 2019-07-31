@@ -51,11 +51,13 @@ const Card = ({ info }) => {
                   Minimum : {temp_min} and Maximum : {temp_max}{" "}
                 </h3>
                 <h3 class="location">Humidity : {humidity}</h3>
+                <h4 class="location">Developed By <a class=" btn btn-info" href="https://github.com/piyushgarg195">Piyush Garg</a></h4>
               </div>
             </div>
           </div>
         </div>
       </div>
+     
     </div>
   );
 };
