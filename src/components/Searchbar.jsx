@@ -37,7 +37,7 @@ const Searchbar = () => {
         </form>
       </nav>
 
-      <Navbar mycity={city} />
+      {/* <Navbar mycity={city} /> */}
     </div>
   );
 };
