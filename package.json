@@ -35,12 +35,12 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/piyushgarg195/Weather-Reactjs.git"
+    
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/piyushgarg195/Weather-Reactjs/issues"
-  },
-  "homepage": "https://github.com/piyushgarg195/Weather-Reactjs#readme"
+   
+  }
+  
 }
