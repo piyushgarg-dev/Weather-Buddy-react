@@ -34,13 +34,9 @@
   "main": "index.js",
   "devDependencies": {},
   "repository": {
-    "type": "git",
-    
+    "type": "git"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-   
-  }
-  
+  "bugs": {}
 }
