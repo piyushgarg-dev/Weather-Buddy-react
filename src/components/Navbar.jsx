@@ -2,7 +2,7 @@ import React from "react";
 import { useEffect, useState } from "react";
 import Card from "./Card";
 const Navbar = () => {
-  const [query, setquery] = useState();
+  const [query, setquery] = useState('Patiala');
   let URL = `https://community-open-weather-map.p.rapidapi.com/weather?q=patiala`;
   const handelchange = e => {
     setquery(e.target.value);
