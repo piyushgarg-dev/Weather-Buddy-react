@@ -27,7 +27,7 @@ const Navbar = () => {
     })
   };
   useEffect(() => {
-    console.log('URL:',query);
+   
     fetch(URL, option)
       .then(res => res.json())
       .then(data => {

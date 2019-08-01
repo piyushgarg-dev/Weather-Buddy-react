@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Navbar from "./Navbar";
+
 const Searchbar = () => {
   const [query, setquery] = useState();
   const [city, setcity] = useState();

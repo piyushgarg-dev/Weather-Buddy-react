@@ -13,45 +13,45 @@ const Card = ({ info }) => {
   const temp = Math.round(info.main.temp - 273);
   const description = capitalizeFirstLetter(info.weather[0].description);
   const humidity = info.main.humidity;
-  const wind = info.wind.speed;
+ 
   const temp_min = Math.round(info.main.temp_min - 273);
   const temp_max = Math.round(info.main.temp_max - 273);
 
   useEffect(() => {
-    console.log("Card", info);
+    
   });
 
   return (
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <div class="weather-card one">
-            <div class="top">
-              <div class="wrapper">
-                <div class="mynav">
-                  <a href="javascript:;">
-                    <span class="lnr lnr-chevron-left" />
+    <div className="container">
+      <div className="row">
+        <div className="col">
+          <div className="weather-card one">
+            <div className="top">
+              <div className="wrapper">
+                <div className="mynav">
+                  <a>
+                    <span className="lnr lnr-chevron-left" />
                   </a>
-                  <a href="javascript:;">
-                    <span class="lnr lnr-cog" />
+                  <a href="">
+                    <span className="lnr lnr-cog" />
                   </a>
                 </div>
-                <h1 class="heading">{description}</h1>
-                <h3 class="location">
+                <h1 className="heading">{description}</h1>
+                <h3 className="location">
                   {city},{country}
                 </h3>
-                <p class="temp">
-                  <span class="temp-value">{temp}</span>
-                  <span class="deg">0</span>
-                  <a href="javascript:;">
-                    <span class="temp-type">C</span>
+                <p className="temp">
+                  <span className="temp-value">{temp}</span>
+                  <span className="deg">0</span>
+                  <a href="">
+                    <span className="temp-type">C</span>
                   </a>
                 </p>
-                <h3 class="location">
+                <h3 className="location">
                   Minimum : {temp_min} and Maximum : {temp_max}{" "}
                 </h3>
-                <h3 class="location">Humidity : {humidity}</h3>
-                <h4 class="location">Developed By <a class=" btn btn-info" href="https://github.com/piyushgarg195">Piyush Garg</a></h4>
+                <h3 className="location">Humidity : {humidity}</h3>
+                <h4 className="location">Developed By <a className=" btn btn-info" href="https://github.com/piyushgarg195">Piyush Garg</a></h4>
               </div>
             </div>
           </div>
