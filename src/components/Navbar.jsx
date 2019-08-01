@@ -46,6 +46,7 @@ const Navbar = () => {
               <input
                 value={query}
                 type="text"
+                required
                 onChange={handelchange}
                 className="form-control"
                 placeholder="City"
